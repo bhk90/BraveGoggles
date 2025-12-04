@@ -1,0 +1,7 @@
+! name: bbs
+! description: A quick tour of Goggles
+! public: false
+! author: Goggles 101
+
+
+bbs.^$boost=3
