@@ -23,9 +23,10 @@ $boost=3,site=nga.178.com
 $boost=3,site=stage1st.com
 $boost=3,site=v2ex.com
 $boost=3,site=linux.do
-bbs.^$boost=3
-/forum.php^$boost=3
-/viewthread.php^$boost=3
+|https://bbs.$boost=3
+|https://forum.$boost=3
+|https://forums.$boost=3
+/*.php$boost=2
 
 ! Good suffixes
 $boost=3,site=org.cn
