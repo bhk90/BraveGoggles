@@ -7,9 +7,9 @@
 $boost=3,site=bgm.tv
 $boost=3,site=bangumi.tv
 $boost=3,site=chii.in
+$boost=3,site=acgrip.com
 $boost=2,site=zh.moegirl.org.cn
 $boost=2,site=nyaa.si
-$boost=3,site=acgrip.com
 
 ! Forums
 $boost=3,site=reddit.com
@@ -19,16 +19,17 @@ $boost=3,site=nga.178.com
 $boost=3,site=stage1st.com
 $boost=3,site=v2ex.com
 $boost=3,site=linux.do
-|bbs.$boost=3
+bbs.^$boost=3
+/forum.php^$boost=3
 
 ! Good suffixes
-$boost=2,site=org.cn
-$boost=2,site=org
+$boost=3,site=org.cn
+$boost=3,site=org
 $boost=2,site=gov.cn
-$boost=2,site=edu
-$boost=2,site=edu.cn
-.htm|$boost=2
-.html|$boost=2
+$boost=3,site=edu
+$boost=3,site=edu.cn
+.htm|$boost=1
+.html|$boost=1
 
 ! Downranks
 ! StackOverflow translations
