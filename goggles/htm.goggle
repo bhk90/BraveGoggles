@@ -1,0 +1,8 @@
+! name: htm
+! description: html and bbs.
+! public: false
+! author: bhk90
+
+.htm|$boost=2
+.html|$boost=2
+|bbs.$boost=3
