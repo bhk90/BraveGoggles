@@ -1,0 +1,6 @@
+! name: edu
+! description: edu.
+! public: false
+! author: bhk90
+
+$boost=3,site=edu
