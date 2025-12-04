@@ -1,0 +1,6 @@
+! name: viewthread
+! description: A quick tour of Goggles
+! public: false
+! author: Goggles 101
+
+/viewthread.php^$boost=3
