@@ -1,0 +1,9 @@
+! name: bbsnew
+! description: A quick tour of Goggles
+! public: false
+! author: Goggles 101
+
+
+|https://bbs.$boost=3
+/viewthread.php^$boost=3
+|http://$boost=2
