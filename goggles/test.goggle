@@ -1,1 +1,6 @@
+! name: MyBraveGoggle
+! description: test
+! public: false
+! author: bhk90
+
 $boost=3,site=.gov.cn
