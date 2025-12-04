@@ -12,8 +12,8 @@ $boost=2,site=zh.moegirl.org.cn
 $boost=2,site=nyaa.si
 
 ! Stack exchange
-$boost=2,stackexchange.com
-$boost=2,stackoverflow.com
+$boost=2,site:stackexchange.com
+$boost=2,site:stackoverflow.com
 
 ! Forums
 $boost=3,site=reddit.com
