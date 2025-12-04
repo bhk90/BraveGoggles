@@ -11,6 +11,10 @@ $boost=3,site=acgrip.com
 $boost=2,site=zh.moegirl.org.cn
 $boost=2,site=nyaa.si
 
+! Stack exchange
+$boost=2,stackexchange.com
+$boost=2,stackoverflow.com
+
 ! Forums
 $boost=3,site=reddit.com
 $boost=3,site=nga.cn
@@ -21,6 +25,7 @@ $boost=3,site=v2ex.com
 $boost=3,site=linux.do
 bbs.^$boost=3
 /forum.php^$boost=3
+/viewthread.php^$boost=3
 
 ! Good suffixes
 $boost=3,site=org.cn
@@ -28,8 +33,9 @@ $boost=3,site=org
 $boost=2,site=gov.cn
 $boost=3,site=edu
 $boost=3,site=edu.cn
-.htm|$boost=1
-.html|$boost=1
+! Not necessary
+!.htm|$boost=1
+!.html|$boost=1
 
 ! Downranks
 ! StackOverflow translations
