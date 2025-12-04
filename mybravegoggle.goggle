@@ -1,0 +1,13 @@
+! name: MyBraveGoggle
+! description: Rank useful sites up.
+! public: false
+! author: bhk90
+
+! Sites
+$boost=3,site=bgm.tv
+$boost=3,site=bangumi.tv
+$boost=3,site=chii.in
+$boost=3,site=zh.moegirl.org.cn
+
+! Downranks
+.com$downrank
