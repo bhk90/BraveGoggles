@@ -1,16 +1,22 @@
-! name: MyBraveGoggle20251205v2
+! name: MyBraveGoggle20251205v3
 ! description: Rank useful sites up.
 ! public: false
 ! author: bhk90
 
 ! Wikis
-$boost=4,site=zh.wikipedia.org
+$boost=3,site=zh.wikipedia.org
 $boost=3,site=fandom.com
 $boost=3,site=baike.baidu.com
 $boost=3,site=zh.moegirl.org.cn
 
+! Dictionaries
+$boost=3,site=zdic.net
+
 ! Asks
 /question^$boost=3,site=zhihu.com
+
+! Articles
+/opus^$boost=3,site=bilibili.com
 
 ! Anime sites
 $boost=3,site=bgm.tv
@@ -23,8 +29,12 @@ $boost=2,site=nyaa.si
 $boost=3,site=stackexchange.com
 $boost=3,site=stackoverflow.com
 
+! Code Repositories
+$boost=3,site=github.com
+
 ! Forums
 $boost=3,site=reddit.com
+/p^$boost=3,site=tieba.baidu.com
 $boost=3,site=nga.cn
 $boost=3,site=ngabbs.com
 $boost=3,site=nga.178.com
@@ -42,12 +52,17 @@ $boost=2,site=org
 $boost=2,site=gov.cn
 $boost=2,site=edu
 $boost=2,site=edu.cn
-! Not necessary
-!.htm|$boost=1
-!.html|$boost=1
+.htm|$boost=1
+! .html|$boost=1
 
 ! Files
+$boost=3,site=ysepan.com
 .pdf|$boost=2
+.xls|$boost=2
+.xlsx|$boost=2
+
+! Common Websites
+$boost=1,site=bilibili.com
 
 ! Downranks
 ! StackOverflow translations
