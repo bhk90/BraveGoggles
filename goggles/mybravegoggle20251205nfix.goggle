@@ -9,7 +9,7 @@ $boost=3,site=fandom.com
 $boost=2,site=baike.baidu.com
 
 ! Asks
-/question?$boost=2,site=zhihu.com
+/question^$boost=2,site=zhihu.com
 
 ! Anime sites
 $boost=3,site=bgm.tv
